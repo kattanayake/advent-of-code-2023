@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Day.validate():Day.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "baseResourcePath">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Day.name.getter:Day.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(describing: self)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
