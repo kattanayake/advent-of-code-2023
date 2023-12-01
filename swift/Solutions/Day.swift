@@ -18,14 +18,21 @@ protocol Day {
 extension Day {
     
     /// Validates that the implemented [part1Solution] correctly solves the example input to the problem
-    func validate() {
-        let expectedOutput = readFile(from: File.exampleOut)[0]
-        let actualOutput = part1Solution(input: readFile(from: File.exampleIn))
+    func validatePart1() {
+        let expectedOutput = readFile(from: File.examplePart1Out)[0]
+        let actualOutput = part1Solution(input: readFile(from: File.examplePart1In))
         assert(expectedOutput == actualOutput)
     }
     
     func part1() {
         print(part1Solution(input: readFile(from: File.part1)))
+    }
+    
+    /// Validates that the implemented [part1Solution] correctly solves the example input to the problem
+    func validatePart2() {
+        let expectedOutput = readFile(from: File.examplePart2Out)[0]
+        let actualOutput = part1Solution(input: readFile(from: File.examplePart2In))
+        assert(expectedOutput == actualOutput)
     }
     
     func part2() {
@@ -58,17 +65,23 @@ extension Day {
 }
 
 private enum File {
-    case exampleIn
-    case exampleOut
+    case examplePart1In
+    case examplePart1Out
+    case examplePart2In
+    case examplePart2Out
     case part1
     case part2
     
     var path: String {
         switch(self){
-        case .exampleIn:
-            return "/ExampleIn.txt"
-        case .exampleOut:
-            return "/ExampleOut.txt"
+        case .examplePart1In:
+            return "/ExamplePart1In.txt"
+        case .examplePart1Out:
+            return "/ExamplePart1Out.txt"
+        case .examplePart2In:
+            return "/ExamplePart2In.txt"
+        case .examplePart2Out:
+            return "/ExamplePart2Out.txt"
         case .part1:
             return "/Part1In.txt"
         case .part2:

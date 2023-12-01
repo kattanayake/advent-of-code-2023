@@ -10,6 +10,7 @@
 		446112472B182CF700E33C8D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446112462B182CF700E33C8D /* main.swift */; };
 		4461124F2B183DAB00E33C8D /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4461124E2B183DAB00E33C8D /* Day.swift */; };
 		446112552B18453000E33C8D /* Day01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446112542B18453000E33C8D /* Day01.swift */; };
+		446112592B19AC9900E33C8D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446112582B19AC9900E33C8D /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,10 +29,15 @@
 		446112432B182CF700E33C8D /* advent_of_code_2023 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = advent_of_code_2023; sourceTree = BUILT_PRODUCTS_DIR; };
 		446112462B182CF700E33C8D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4461124E2B183DAB00E33C8D /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
-		446112522B18451400E33C8D /* ExampleIn.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExampleIn.txt; sourceTree = "<group>"; };
-		446112532B18451400E33C8D /* ExampleOut.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExampleOut.txt; sourceTree = "<group>"; };
+		446112522B18451400E33C8D /* ExamplePart1In.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExamplePart1In.txt; sourceTree = "<group>"; };
+		446112532B18451400E33C8D /* ExamplePart1Out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExamplePart1Out.txt; sourceTree = "<group>"; };
 		446112542B18453000E33C8D /* Day01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day01.swift; sourceTree = "<group>"; };
 		446112562B1849BB00E33C8D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		446112572B19A81B00E33C8D /* Part1In.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Part1In.txt; sourceTree = "<group>"; };
+		446112582B19AC9900E33C8D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		4461125A2B19B06200E33C8D /* ExamplePart2In.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ExamplePart2In.txt; sourceTree = "<group>"; };
+		4461125B2B19B07300E33C8D /* ExamplePart2Out.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ExamplePart2Out.txt; sourceTree = "<group>"; };
+		4461125C2B19B0C700E33C8D /* Part2In.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Part2In.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +54,7 @@
 		4461123A2B182CF700E33C8D = {
 			isa = PBXGroup;
 			children = (
+				446112582B19AC9900E33C8D /* Utils.swift */,
 				446112562B1849BB00E33C8D /* README.md */,
 				446112502B183DFE00E33C8D /* Resources */,
 				4461124D2B183D9600E33C8D /* Solutions */,
@@ -84,8 +91,12 @@
 		446112512B18443700E33C8D /* Day01 */ = {
 			isa = PBXGroup;
 			children = (
-				446112522B18451400E33C8D /* ExampleIn.txt */,
-				446112532B18451400E33C8D /* ExampleOut.txt */,
+				446112522B18451400E33C8D /* ExamplePart1In.txt */,
+				446112532B18451400E33C8D /* ExamplePart1Out.txt */,
+				446112572B19A81B00E33C8D /* Part1In.txt */,
+				4461125A2B19B06200E33C8D /* ExamplePart2In.txt */,
+				4461125B2B19B07300E33C8D /* ExamplePart2Out.txt */,
+				4461125C2B19B0C700E33C8D /* Part2In.txt */,
 			);
 			path = Day01;
 			sourceTree = "<group>";
@@ -151,6 +162,7 @@
 				4461124F2B183DAB00E33C8D /* Day.swift in Sources */,
 				446112472B182CF700E33C8D /* main.swift in Sources */,
 				446112552B18453000E33C8D /* Day01.swift in Sources */,
+				446112592B19AC9900E33C8D /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

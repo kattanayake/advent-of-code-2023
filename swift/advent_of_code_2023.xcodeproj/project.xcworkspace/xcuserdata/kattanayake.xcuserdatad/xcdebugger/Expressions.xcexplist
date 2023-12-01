@@ -11,6 +11,14 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "closure #1 in Day01.part2Solution(input:):Day01.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "line.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "Day.name.getter:Day.swift">
          <PersistentStrings>
             <PersistentString

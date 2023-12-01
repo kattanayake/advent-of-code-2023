@@ -9,5 +9,12 @@ import Foundation
 
 let day: Day = Day01()
 
-day.validate()
+print("Validating Part 1")
+day.validatePart1()
+print("Part 1")
+day.part1()
+print("Validating Part 2")
+day.validatePart1()
+print("Part 2")
+day.part2()
 
