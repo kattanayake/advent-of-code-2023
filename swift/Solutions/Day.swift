@@ -21,21 +21,27 @@ extension Day {
     func validatePart1() {
         let expectedOutput = readFile(from: File.examplePart1Out)[0]
         let actualOutput = part1Solution(input: readFile(from: File.examplePart1In))
+        print("Validating part 1 ... ", terminator: "")
         assert(expectedOutput == actualOutput)
+        print("Validation complete.")
     }
     
     func part1() {
+        print("Solving part 1: ", terminator: "")
         print(part1Solution(input: readFile(from: File.part1)))
     }
     
     /// Validates that the implemented [part1Solution] correctly solves the example input to the problem
     func validatePart2() {
         let expectedOutput = readFile(from: File.examplePart2Out)[0]
-        let actualOutput = part1Solution(input: readFile(from: File.examplePart2In))
+        let actualOutput = part2Solution(input: readFile(from: File.examplePart2In))
+        print("Validating part 2 ... ", terminator: "")
         assert(expectedOutput == actualOutput)
+        print("Validation complete.")
     }
     
     func part2() {
+        print("Solving part 2: ", terminator: "")
         print(part2Solution(input: readFile(from: File.part2)))
     }
 }
