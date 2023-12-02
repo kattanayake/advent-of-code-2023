@@ -46,6 +46,12 @@
 		446112622B1A521600E33C8D /* ExamplePart1In.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExamplePart1In.txt; sourceTree = "<group>"; };
 		446112632B1A521600E33C8D /* ExamplePart2In.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExamplePart2In.txt; sourceTree = "<group>"; };
 		446112642B1A522D00E33C8D /* Day02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day02.swift; sourceTree = "<group>"; };
+		4461126F2B1B0A0500E33C8D /* Part2In.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Part2In.txt; sourceTree = "<group>"; };
+		446112702B1B0A0500E33C8D /* Part1In.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Part1In.txt; sourceTree = "<group>"; };
+		446112712B1B0A0500E33C8D /* ExamplePart1Out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExamplePart1Out.txt; sourceTree = "<group>"; };
+		446112722B1B0A0500E33C8D /* ExamplePart1In.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExamplePart1In.txt; sourceTree = "<group>"; };
+		446112732B1B0A0500E33C8D /* ExamplePart2In.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExamplePart2In.txt; sourceTree = "<group>"; };
+		446112742B1B0A0500E33C8D /* ExamplePart2Out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExamplePart2Out.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,7 @@
 		446112502B183DFE00E33C8D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4461126E2B1B09E500E33C8D /* Day03 */,
 				4461125D2B1A51EA00E33C8D /* Day02 */,
 				446112512B18443700E33C8D /* Day01 */,
 			);
@@ -122,6 +129,19 @@
 				4461125F2B1A521600E33C8D /* Part2In.txt */,
 			);
 			path = Day02;
+			sourceTree = "<group>";
+		};
+		4461126E2B1B09E500E33C8D /* Day03 */ = {
+			isa = PBXGroup;
+			children = (
+				446112722B1B0A0500E33C8D /* ExamplePart1In.txt */,
+				446112712B1B0A0500E33C8D /* ExamplePart1Out.txt */,
+				446112732B1B0A0500E33C8D /* ExamplePart2In.txt */,
+				446112742B1B0A0500E33C8D /* ExamplePart2Out.txt */,
+				446112702B1B0A0500E33C8D /* Part1In.txt */,
+				4461126F2B1B0A0500E33C8D /* Part2In.txt */,
+			);
+			path = Day03;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

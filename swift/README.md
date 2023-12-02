@@ -6,6 +6,7 @@ File structure for this project is as follows
 .
 ├── README.md                           README file
 ├── advent_of_code_2023.xcodeproj       Project file to be opened in XCode
+├── main.swift                          Main executable for project
 ├── Resources 
 │   └── Day01                           Folder for resources related to Day01
 │       └── ExamplePart1In.txt          Input for example for part 1 of the problem of the day
