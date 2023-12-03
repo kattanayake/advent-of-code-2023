@@ -3,6 +3,14 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "isNextToSymbol #1 (_:startY:endY:) in Day03.part1Solution(input:):Day03.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "&quot;*&quot;[0].isSymbol">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "Day.validate():Day.swift">
          <PersistentStrings>
             <PersistentString
@@ -23,6 +31,14 @@
          <PersistentStrings>
             <PersistentString
                value = "String(describing: self)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Day03.part1Solution(input:):Day03.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Int(line[startIndex...(charIdx-1)])">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
