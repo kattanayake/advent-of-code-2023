@@ -3,10 +3,57 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "closure #2 in Day05.part1Solution(input:):Day05.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(50..&lt;(50+2)).count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Day05.part1Solution(input:):Day05.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #3 in Day05.part2Solution(input:):Day05.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in Day05.part1Solution(input:):Day05.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Day04.part2Solution(input:):Day04.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Day05.part2Solution(input:):Day05.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Day03.part1Solution(input:):Day03.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Int(line[startIndex...(charIdx-1)])">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "isNextToSymbol #1 (_:startY:endY:) in Day03.part1Solution(input:):Day03.swift">
          <PersistentStrings>
             <PersistentString
                value = "&quot;*&quot;[0].isSymbol">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "doDataUpdate #1 () in Day05.part2Solution(input:):Day05.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "curSeedData.lowerBound &gt; (curRubrick.upperBound-1)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Day.name.getter:Day.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(describing: self)">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -23,22 +70,6 @@
          <PersistentStrings>
             <PersistentString
                value = "line.count">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "Day.name.getter:Day.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "String(describing: self)">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "Day03.part1Solution(input:):Day03.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "Int(line[startIndex...(charIdx-1)])">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

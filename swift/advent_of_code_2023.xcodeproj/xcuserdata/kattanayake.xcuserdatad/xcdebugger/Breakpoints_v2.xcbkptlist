@@ -7,111 +7,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1CA1EA4D-CE10-4993-A98A-ABBF6B842FD7"
+            uuid = "73D9C0C7-30C9-471A-88F4-FF4BF2A43E26"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "advent_of_code_2023/Solutions/Day.swift"
+            filePath = "Solutions/Day05.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "name"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D8EF8CCA-D5CC-4C1D-8D58-89E0233FF0F5"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "advent_of_code_2023/Solutions/Day.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "validate()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "25E775B8-49B4-499E-9700-07AD5069405A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Solutions/Day01.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
-            landmarkName = "part2Solution(input:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F40E09A5-B9DC-4C23-950E-F380F8C24773"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "main.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "unknown"
-            landmarkType = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9ADDCCA6-EFF3-41BE-B82E-9A59F87D1DA1"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Solutions/Day01.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
-            landmarkName = "part2Solution(input:)"
-            landmarkType = "7">
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "doDataUpdate()"
+            landmarkType = "9">
             <Locations>
                <Location
-                  uuid = "9ADDCCA6-EFF3-41BE-B82E-9A59F87D1DA1 - cc6f10817cc4d57d"
+                  uuid = "73D9C0C7-30C9-471A-88F4-FF4BF2A43E26 - 9c303095516425b8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.String) -&gt; () in advent_of_code_2023.Day01.part2Solution(input: Swift.Array&lt;Swift.String&gt;) -&gt; Swift.String"
+                  symbolName = "doDataUpdate() -&gt; ()"
                   moduleName = "advent_of_code_2023"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kattanayake/Documents/AoC_2023/swift/Solutions/Day01.swift"
+                  urlString = "file:///Users/kattanayake/Documents/AoC_2023/swift/Solutions/Day05.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "70"
-                  endingLineNumber = "70"
-                  offsetFromSymbolStart = "2284">
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "1920">
                </Location>
                <Location
-                  uuid = "9ADDCCA6-EFF3-41BE-B82E-9A59F87D1DA1 - cc6f10817cc4d55e"
+                  uuid = "73D9C0C7-30C9-471A-88F4-FF4BF2A43E26 - 9c303095516425b8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.String) -&gt; () in advent_of_code_2023.Day01.part2Solution(input: Swift.Array&lt;Swift.String&gt;) -&gt; Swift.String"
+                  symbolName = "doDataUpdate() -&gt; ()"
                   moduleName = "advent_of_code_2023"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kattanayake/Documents/AoC_2023/swift/Solutions/Day01.swift"
+                  urlString = "file:///Users/kattanayake/Documents/AoC_2023/swift/Solutions/Day05.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "71"
-                  endingLineNumber = "71"
-                  offsetFromSymbolStart = "2292">
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "1896">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -119,47 +55,77 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "33641B6D-38DF-4315-A47B-D69595E0CE4F"
+            uuid = "F96303AA-BABF-4288-A522-A7B10F5CB227"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Solutions/Day03.swift"
+            filePath = "Solutions/Day05.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "part1Solution(input:)"
-            landmarkType = "7">
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "doDataUpdate()"
+            landmarkType = "9">
             <Locations>
                <Location
-                  uuid = "33641B6D-38DF-4315-A47B-D69595E0CE4F - b135b638b7c10d98"
+                  uuid = "F96303AA-BABF-4288-A522-A7B10F5CB227 - 9c30309551642472"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "advent_of_code_2023.Day03.part1Solution(input: Swift.Array&lt;Swift.String&gt;) -&gt; Swift.String"
+                  symbolName = "doDataUpdate() -&gt; ()"
                   moduleName = "advent_of_code_2023"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kattanayake/Documents/AoC_2023/swift/Solutions/Day03.swift"
+                  urlString = "file:///Users/kattanayake/Documents/AoC_2023/swift/Solutions/Day05.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "49"
-                  endingLineNumber = "49"
-                  offsetFromSymbolStart = "832">
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "2592">
                </Location>
                <Location
-                  uuid = "33641B6D-38DF-4315-A47B-D69595E0CE4F - b135b638b7c10d1c"
+                  uuid = "F96303AA-BABF-4288-A522-A7B10F5CB227 - 9c30309551642472"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "advent_of_code_2023.Day03.part1Solution(input: Swift.Array&lt;Swift.String&gt;) -&gt; Swift.String"
+                  symbolName = "doDataUpdate() -&gt; ()"
                   moduleName = "advent_of_code_2023"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kattanayake/Documents/AoC_2023/swift/Solutions/Day03.swift"
+                  urlString = "file:///Users/kattanayake/Documents/AoC_2023/swift/Solutions/Day05.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "45"
-                  endingLineNumber = "45"
-                  offsetFromSymbolStart = "832">
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "2568">
+               </Location>
+               <Location
+                  uuid = "F96303AA-BABF-4288-A522-A7B10F5CB227 - 9c30309551642472"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "doDataUpdate() -&gt; ()"
+                  moduleName = "advent_of_code_2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kattanayake/Documents/AoC_2023/swift/Solutions/Day05.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "2544">
+               </Location>
+               <Location
+                  uuid = "F96303AA-BABF-4288-A522-A7B10F5CB227 - 9c30309551642472"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "doDataUpdate() -&gt; ()"
+                  moduleName = "advent_of_code_2023"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kattanayake/Documents/AoC_2023/swift/Solutions/Day05.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "2548">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -167,97 +133,33 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "9F509384-C7EA-4760-9A13-F75EA7DA4DBD"
+            uuid = "1838EA2E-B8C3-4C19-A9E7-04ACF9F3EE66"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Solutions/Day03.swift"
+            filePath = "Solutions/Day05.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "part1Solution(input:)"
-            landmarkType = "7">
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "doDataUpdate()"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3D42387F-AE8E-4245-94E9-A8AD25AE495D"
+            uuid = "BB816B67-E58D-4A66-95BF-DA64496A6D5A"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Solutions/Day03.swift"
+            filePath = "Solutions/Day05.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "part1Solution(input:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "64FAFDF0-6E62-443A-9AC6-67A08CD31057"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Solutions/Day03.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "part1Solution(input:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "32D315CE-2142-470E-8992-88B5A7CD702A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Solutions/Day04.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "Day04"
-            landmarkType = "14">
-            <Locations>
-               <Location
-                  uuid = "32D315CE-2142-470E-8992-88B5A7CD702A - 2767063781edf1e0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "advent_of_code_2023.Day04.part2Solution(input: Swift.Array&lt;Swift.String&gt;) -&gt; Swift.String"
-                  moduleName = "advent_of_code_2023"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kattanayake/Documents/AoC_2023/swift/Solutions/Day04.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42"
-                  offsetFromSymbolStart = "2224">
-               </Location>
-               <Location
-                  uuid = "32D315CE-2142-470E-8992-88B5A7CD702A - 38ff18702203e073"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "implicit closure #1 (Swift.Int, Swift.Int) -&gt; Swift.Int in advent_of_code_2023.Day04.part2Solution(input: Swift.Array&lt;Swift.String&gt;) -&gt; Swift.String"
-                  moduleName = "advent_of_code_2023"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kattanayake/Documents/AoC_2023/swift/Solutions/Day04.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42"
-                  offsetFromSymbolStart = "36">
-               </Location>
-            </Locations>
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "doDataUpdate()"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
