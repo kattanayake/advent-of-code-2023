@@ -20,6 +20,8 @@ struct Day06: Day {
             for dur in 0...time {
                 if (dur * (time - dur)) > target {
                     permutations += 1
+                } else if permutations > 0 {
+                    break
                 }
             }
             answers.append(permutations)
@@ -35,6 +37,8 @@ struct Day06: Day {
         for dur in 0...time {
             if (dur * (time - dur)) > distance {
                 permutations += 1
+            } else if permutations > 0 {
+                break
             }
         }
 
