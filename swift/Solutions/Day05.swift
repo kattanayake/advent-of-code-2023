@@ -72,13 +72,13 @@ struct Day05: Day {
                 } else { // Rubrik not completely smaller than seed range
                     
                     if(curSeedData.lowerBound >= curRubrick.lowerBound  && curSeedData.upperBound < curRubrick.upperBound){
-                        // Full overlap scenario
+                        // Full overlap
                         let newMappingStart = curRubrickMapping.lowerBound + (curSeedData.lowerBound - curRubrick.lowerBound)
                         let newMappingEnd = newMappingStart + curSeedData.count
                         data[seedIndex] = newMappingStart..<newMappingEnd
                         
                     } else if (curSeedData.lowerBound >= curRubrick.lowerBound && curSeedData.lowerBound < curRubrick.upperBound){
-                        // Left overlap
+                        // Partial overlap on left
                         let newMappingStart = curRubrickMapping.lowerBound + (curSeedData.lowerBound - curRubrick.lowerBound)
                         let newMappingEnd = curRubrickMapping.upperBound
                         data[seedIndex] = newMappingStart..<newMappingEnd
@@ -88,6 +88,7 @@ struct Day05: Day {
                         data.insert(leftoverStart..<leftoverEnd, at: seedIndex+1)
                         
                     } else if (curSeedData.upperBound < curRubrick.upperBound && curSeedData.upperBound > curRubrick.lowerBound) {
+                        // Partial overlap on right
                         let newMappingStart = curRubrickMapping.lowerBound
                         let newMappingEnd = newMappingStart + (curSeedData.upperBound - curRubrick.lowerBound)
                         data[seedIndex] = newMappingStart..<newMappingEnd
@@ -97,9 +98,7 @@ struct Day05: Day {
                         data.insert(leftoverStart..<leftoverEnd, at: seedIndex)
                         seedIndex += 1
                     }
-                    // Partial overlap on left
-                    // Partial overlap on right
-                    // This seed falls within this range
+                    
                     seedIndex += 1
                 }
             }
@@ -124,9 +123,3 @@ struct Day05: Day {
     
 }
 
-///
-///25834266
-///97676188
-///486613012
-///
-///

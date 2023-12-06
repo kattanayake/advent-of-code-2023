@@ -62,8 +62,8 @@
             filePath = "Solutions/Day05.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
             landmarkName = "doDataUpdate()"
             landmarkType = "9">
             <Locations>
@@ -159,6 +159,22 @@
             startingLineNumber = "71"
             endingLineNumber = "71"
             landmarkName = "doDataUpdate()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA0D5406-923F-4981-8375-6710E5ECC1AA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Solutions/Day06.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "part2Solution(input:)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>

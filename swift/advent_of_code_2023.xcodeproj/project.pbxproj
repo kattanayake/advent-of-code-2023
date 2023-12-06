@@ -15,6 +15,7 @@
 		446112762B1CEBB400E33C8D /* Day03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446112752B1CEBB400E33C8D /* Day03.swift */; };
 		4461127F2B1D008F00E33C8D /* Day04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4461127E2B1D008F00E33C8D /* Day04.swift */; };
 		446112882B1D9E5700E33C8D /* Day05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446112872B1D9E5700E33C8D /* Day05.swift */; };
+		446112912B1F9AE100E33C8D /* Day06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446112902B1F9AE100E33C8D /* Day06.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +71,13 @@
 		446112852B1D9E4900E33C8D /* ExamplePart1Out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExamplePart1Out.txt; sourceTree = "<group>"; };
 		446112862B1D9E4900E33C8D /* ExamplePart2In.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExamplePart2In.txt; sourceTree = "<group>"; };
 		446112872B1D9E5700E33C8D /* Day05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day05.swift; sourceTree = "<group>"; };
+		4461128A2B1F9AD500E33C8D /* ExamplePart1In.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExamplePart1In.txt; sourceTree = "<group>"; };
+		4461128B2B1F9AD500E33C8D /* Part2In.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Part2In.txt; sourceTree = "<group>"; };
+		4461128C2B1F9AD500E33C8D /* ExamplePart1Out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExamplePart1Out.txt; sourceTree = "<group>"; };
+		4461128D2B1F9AD500E33C8D /* ExamplePart2Out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExamplePart2Out.txt; sourceTree = "<group>"; };
+		4461128E2B1F9AD500E33C8D /* Part1In.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Part1In.txt; sourceTree = "<group>"; };
+		4461128F2B1F9AD500E33C8D /* ExamplePart2In.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExamplePart2In.txt; sourceTree = "<group>"; };
+		446112902B1F9AE100E33C8D /* Day06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day06.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,7 @@
 				446112752B1CEBB400E33C8D /* Day03.swift */,
 				4461127E2B1D008F00E33C8D /* Day04.swift */,
 				446112872B1D9E5700E33C8D /* Day05.swift */,
+				446112902B1F9AE100E33C8D /* Day06.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -119,6 +128,7 @@
 		446112502B183DFE00E33C8D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				446112892B1F9ABB00E33C8D /* Day06 */,
 				446112802B1D9E1F00E33C8D /* Day05 */,
 				446112772B1D005D00E33C8D /* Day04 */,
 				4461126E2B1B09E500E33C8D /* Day03 */,
@@ -193,6 +203,19 @@
 			path = Day05;
 			sourceTree = "<group>";
 		};
+		446112892B1F9ABB00E33C8D /* Day06 */ = {
+			isa = PBXGroup;
+			children = (
+				4461128A2B1F9AD500E33C8D /* ExamplePart1In.txt */,
+				4461128C2B1F9AD500E33C8D /* ExamplePart1Out.txt */,
+				4461128F2B1F9AD500E33C8D /* ExamplePart2In.txt */,
+				4461128D2B1F9AD500E33C8D /* ExamplePart2Out.txt */,
+				4461128E2B1F9AD500E33C8D /* Part1In.txt */,
+				4461128B2B1F9AD500E33C8D /* Part2In.txt */,
+			);
+			path = Day06;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -253,6 +276,7 @@
 			files = (
 				446112762B1CEBB400E33C8D /* Day03.swift in Sources */,
 				446112882B1D9E5700E33C8D /* Day05.swift in Sources */,
+				446112912B1F9AE100E33C8D /* Day06.swift in Sources */,
 				4461124F2B183DAB00E33C8D /* Day.swift in Sources */,
 				446112472B182CF700E33C8D /* main.swift in Sources */,
 				446112652B1A522D00E33C8D /* Day02.swift in Sources */,
