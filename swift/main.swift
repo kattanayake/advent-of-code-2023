@@ -7,7 +7,7 @@
 
 import Foundation
 
-let day: Day = Day06()
+let day: Day = Day07()
 
 day.validatePart1()
 day.part1()
