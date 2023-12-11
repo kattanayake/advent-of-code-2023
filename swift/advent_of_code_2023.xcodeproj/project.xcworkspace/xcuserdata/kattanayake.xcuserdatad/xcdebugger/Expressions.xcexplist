@@ -34,10 +34,10 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "isNextToSymbol #1 (_:startY:endY:) in Day03.part1Solution(input:):Day03.swift">
+         contextName = "Day10.parseGrid(input:):Day10.swift">
          <PersistentStrings>
             <PersistentString
-               value = "&quot;*&quot;[0].isSymbol">
+               value = "parsedGrid[startX][startY]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -50,6 +50,14 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "isNextToSymbol #1 (_:startY:endY:) in Day03.part1Solution(input:):Day03.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "&quot;*&quot;[0].isSymbol">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "Day.name.getter:Day.swift">
          <PersistentStrings>
             <PersistentString
@@ -58,18 +66,18 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "Day.validate():Day.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "baseResourcePath">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
          contextName = "closure #1 in Day01.part2Solution(input:):Day01.swift">
          <PersistentStrings>
             <PersistentString
                value = "line.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Day.validate():Day.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "baseResourcePath">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
