@@ -11,6 +11,23 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "closure #1 in Day10.spreadFreedom(grid:explored:cellX:cellY:isSource:):Day10.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Day11.part1Solution(input:):Day11.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "parsedInput[0].count">
+            </PersistentString>
+            <PersistentString
+               value = "answer.reduce(0, +)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Day10.spreadFreedom(grid:explored:cellX:cellY:isSource:):Day10.swift">
+      </ContextState>
+      <ContextState
          contextName = "Day05.part1Solution(input:):Day05.swift">
       </ContextState>
       <ContextState
@@ -56,6 +73,9 @@
                value = "&quot;*&quot;[0].isSymbol">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Day10.part2Solution(input:):Day10.swift">
       </ContextState>
       <ContextState
          contextName = "Day.name.getter:Day.swift">
