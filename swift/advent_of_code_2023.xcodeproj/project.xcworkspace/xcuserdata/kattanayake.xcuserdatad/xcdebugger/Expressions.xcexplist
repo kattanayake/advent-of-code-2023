@@ -25,6 +25,14 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "closure #1 in Day12.part1Solution(input:):Day12.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "&quot;.###...##..#&quot; == &quot;.###....##.#&quot;&#9;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "Day10.spreadFreedom(grid:explored:cellX:cellY:isSource:):Day10.swift">
       </ContextState>
       <ContextState
@@ -38,6 +46,14 @@
       </ContextState>
       <ContextState
          contextName = "Day04.part2Solution(input:):Day04.swift">
+      </ContextState>
+      <ContextState
+         contextName = "goDeeper #1 (_:_:_:) in Day12.part1Solution(input:):Day12.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "line.index(line.startIndex, offsetBy: index)..&lt;line.index(line.startIndex, offsetBy: index+values[0])">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "Day05.part2Solution(input:):Day05.swift">
