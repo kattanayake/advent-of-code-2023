@@ -62,7 +62,7 @@ extension Day {
     
     private func readFile(from:File) -> [String] {
         do {
-            return try String(contentsOfFile: baseResourcePath + from.path).split(separator: "\n").map { String($0) }
+            return try String(contentsOfFile: baseResourcePath + from.path).split(separator: "\n", omittingEmptySubsequences: false).map { String($0) }
         } catch {
             print(error.localizedDescription)
             exit(1)
