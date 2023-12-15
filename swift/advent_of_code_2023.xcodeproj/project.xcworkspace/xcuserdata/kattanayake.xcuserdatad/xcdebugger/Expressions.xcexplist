@@ -36,6 +36,14 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "Day15.part2Solution(input:):Day15.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "boxes.filter { !$0.lensOrder.isEmpty }">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "closure #2 in Day05.part1Solution(input:):Day05.swift">
          <PersistentStrings>
             <PersistentString

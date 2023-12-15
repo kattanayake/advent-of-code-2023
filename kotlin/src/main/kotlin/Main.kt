@@ -1,7 +1,7 @@
 import solutions.*
 
 fun main(args: Array<String>) {
-    val day: Day = Day14()
+    val day: Day = Day15()
     day.validatePart1()
     day.part1()
     day.validatePart2()
