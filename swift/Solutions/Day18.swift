@@ -98,7 +98,36 @@ struct Day18 : Day {
     }
     
     func part2Solution(input: [String]) -> String {
-        var answer = 0
+        let ins = input.filter { !$0.isEmpty }.map { line in
+            let color = line.split(separator: " ")[2]
+            let direction: Direction
+            switch(color[color.count-2]){
+            case "0" : direction = .right
+            case "1" : direction = .down
+            case "2" : direction = .left
+            default : direction = .up
+            }
+            return (Int(String(color[2..<(color.count-2)]), radix: 16)!, direction)
+        }
+        var vertices = [Coordinate](arrayLiteral: Coordinate(x:0, y:0))
+        var prevVertex = vertices[0]
+        var perimeter = 0
+        
+        ins.forEach { (steps, dir) in
+            let newEnd = dir.takeUnboundedSteps(steps, prevVertex)
+            vertices.append(newEnd)
+            prevVertex = newEnd
+            perimeter += steps
+        }
+        
+        var area = 0
+        for i in 1..<vertices.count {
+            let prev = vertices[i - 1]
+            let cur = vertices[i]
+            area += (cur.x - prev.x) * prev.y
+        }
+        
+        var answer = area + (perimeter / 2) + 1
         return "\(answer)"
     }
     

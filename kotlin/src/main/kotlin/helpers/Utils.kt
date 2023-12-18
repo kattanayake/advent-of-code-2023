@@ -5,12 +5,14 @@ data class Coordinate(val x: Int, val y: Int)
 enum class Direction {
     UP, DOWN, LEFT, RIGHT;
 
-    fun takeStep(coordinate: Coordinate): Coordinate {
+    fun takeStep(coordinate: Coordinate) = takeSteps(coordinate, 1)
+
+    fun takeSteps(coordinate: Coordinate, steps: Int): Coordinate {
         return when(this){
-            UP -> coordinate.copy(x = coordinate.x-1)
-            DOWN -> coordinate.copy(x = coordinate.x+1)
-            LEFT -> coordinate.copy(y = coordinate.y-1)
-            RIGHT -> coordinate.copy(y = coordinate.y+1)
+            UP -> coordinate.copy(x = coordinate.x-steps)
+            DOWN -> coordinate.copy(x = coordinate.x+steps)
+            LEFT -> coordinate.copy(y = coordinate.y-steps)
+            RIGHT -> coordinate.copy(y = coordinate.y+steps)
         }
     }
 

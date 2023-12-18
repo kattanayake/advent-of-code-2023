@@ -67,6 +67,18 @@ enum Direction {
         }
         return nil
     }
+    
+    func takeUnboundedSteps(_ steps: Int, _ coords: Coordinate)-> Coordinate {
+        let xMultiplier: Int
+        let yMultiplier: Int
+        switch(self){
+        case .up: xMultiplier = -1; yMultiplier = 0
+        case .down: xMultiplier = +1; yMultiplier = 0
+        case .left: xMultiplier = 0; yMultiplier = -1
+        case .right: xMultiplier = 0; yMultiplier = +1
+        }
+        return Coordinate(x: coords.x + (xMultiplier * steps), y: coords.y + (yMultiplier * steps))
+    }
 }
 
 struct Coordinate: Hashable {

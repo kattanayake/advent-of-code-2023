@@ -11,6 +11,6 @@ let day: Day = Day18()
 
 day.validatePart1()
 day.part1()
-//day.validatePart2()
-//day.part2()
+day.validatePart2()
+day.part2()
 
