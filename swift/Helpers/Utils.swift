@@ -21,7 +21,7 @@ extension StringProtocol {
 enum Direction {
     case up, down, left, right
     
-    func takeStep(_ coord: Coordinate, maxX: Int, maxY: Int) -> Coordinate? {
+    func takeStep(_ coord: Coordinate, maxX: Int? = nil, maxY: Int? = nil) -> Coordinate? {
         let next: Coordinate
         switch(self){
         case .up: next = Coordinate(x:coord.x - 1, y:coord.y)
@@ -29,13 +29,18 @@ enum Direction {
         case .left: next = Coordinate(x:coord.x , y:coord.y - 1)
         case .right: next = Coordinate(x:coord.x , y:coord.y + 1)
         }
+        
+        guard let maxX, let maxY else {
+            return next
+        }
+        
         if next.x <= maxX, next.y <= maxY, next.x >= 0, next.y >= 0 {
             return next
         }
         return nil
     }
     
-    func turnLeft(_ coord: Coordinate, maxX: Int, maxY: Int) -> (Coordinate, Direction)? {
+    func turnLeft(_ coord: Coordinate, maxX: Int? = nil, maxY: Int? = nil) -> (Coordinate, Direction)? {
         let next: (Coordinate?, Direction)
         switch(self){
         case .up: next = (Direction.left.takeStep(coord, maxX: maxX, maxY: maxY), .left)
@@ -49,7 +54,7 @@ enum Direction {
         return nil
     }
     
-    func turnRight(_ coord: Coordinate, maxX: Int, maxY: Int) -> (Coordinate, Direction)? {
+    func turnRight(_ coord: Coordinate, maxX: Int? = nil, maxY: Int? = nil) -> (Coordinate, Direction)? {
         let next: (Coordinate?, Direction)
         switch(self){
         case .down: next = (Direction.left.takeStep(coord, maxX: maxX, maxY: maxY), .left)

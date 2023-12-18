@@ -175,6 +175,17 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "Day18.part1Solution(input:):Day18.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "vWalls[0]">
+            </PersistentString>
+            <PersistentString
+               value = "frontier">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "Day17.Path.takeStep(_:_:):Day17.swift">
       </ContextState>
       <ContextState
