@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		443B48B22B3126CB00087F80 /* Day19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443B48B12B3126CB00087F80 /* Day19.swift */; };
 		4450F4E92B2432C40051956F /* Day10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450F4E82B2432C40051956F /* Day10.swift */; };
 		4450F4F22B26A7440051956F /* Day11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450F4F12B26A7440051956F /* Day11.swift */; };
 		4450F4FB2B27D2230051956F /* Day12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450F4FA2B27D2230051956F /* Day12.swift */; };
@@ -48,6 +49,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		443B48B12B3126CB00087F80 /* Day19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day19.swift; sourceTree = "<group>"; };
+		443B48B32B3126F100087F80 /* ExamplePart1In.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExamplePart1In.txt; sourceTree = "<group>"; };
+		443B48B42B3126F100087F80 /* Part1In.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Part1In.txt; sourceTree = "<group>"; };
+		443B48B52B3126F100087F80 /* Part2In.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Part2In.txt; sourceTree = "<group>"; };
+		443B48B62B3126F100087F80 /* ExamplePart1Out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExamplePart1Out.txt; sourceTree = "<group>"; };
+		443B48B72B3126F100087F80 /* ExamplePart2In.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExamplePart2In.txt; sourceTree = "<group>"; };
+		443B48B82B3126F100087F80 /* ExamplePart2Out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExamplePart2Out.txt; sourceTree = "<group>"; };
 		4450F4E22B2432BB0051956F /* ExamplePart1In.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExamplePart1In.txt; sourceTree = "<group>"; };
 		4450F4E32B2432BB0051956F /* ExamplePart1Out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExamplePart1Out.txt; sourceTree = "<group>"; };
 		4450F4E42B2432BB0051956F /* Part2In.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Part2In.txt; sourceTree = "<group>"; };
@@ -197,6 +205,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		443B48B02B3126A900087F80 /* Day19 */ = {
+			isa = PBXGroup;
+			children = (
+				443B48B32B3126F100087F80 /* ExamplePart1In.txt */,
+				443B48B62B3126F100087F80 /* ExamplePart1Out.txt */,
+				443B48B72B3126F100087F80 /* ExamplePart2In.txt */,
+				443B48B82B3126F100087F80 /* ExamplePart2Out.txt */,
+				443B48B42B3126F100087F80 /* Part1In.txt */,
+				443B48B52B3126F100087F80 /* Part2In.txt */,
+			);
+			path = Day19;
+			sourceTree = "<group>";
+		};
 		4450F4E12B2432A40051956F /* Day10 */ = {
 			isa = PBXGroup;
 			children = (
@@ -366,6 +387,7 @@
 				4450F51E2B2C22760051956F /* Day16.swift */,
 				4450F5212B2EB7B00051956F /* Day17.swift */,
 				4450F53C2B2FD6810051956F /* Day18.swift */,
+				443B48B12B3126CB00087F80 /* Day19.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -373,6 +395,7 @@
 		446112502B183DFE00E33C8D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				443B48B02B3126A900087F80 /* Day19 */,
 				4450F5352B2FD64D0051956F /* Day18 */,
 				4450F5202B2EB7A20051956F /* Day17 */,
 				4450F5172B2C22550051956F /* Day16 */,
@@ -600,6 +623,7 @@
 				4450F53D2B2FD6810051956F /* Day18.swift in Sources */,
 				4461129D2B227D5F00E33C8D /* Day08.swift in Sources */,
 				446112592B19AC9900E33C8D /* Utils.swift in Sources */,
+				443B48B22B3126CB00087F80 /* Day19.swift in Sources */,
 				4450F5322B2EDB5E0051956F /* Heap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

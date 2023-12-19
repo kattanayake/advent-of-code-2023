@@ -19,6 +19,14 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "Day.validatePart2():Day.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Int(actualOutput)! / Int(expectedOutput)!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "closure #2 in Day05.part1Solution(input:):Day05.swift">
          <PersistentStrings>
             <PersistentString
@@ -107,12 +115,21 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "Day18.part2Solution(input:):Day18.swift">
+      </ContextState>
+      <ContextState
+         contextName = "evaluate #1 (_:_:curRanges:) in Day19.part2Solution(input:):Day19.swift">
+      </ContextState>
+      <ContextState
          contextName = "goDeeper #1 (_:_:_:) in Day12.part1Solution(input:):Day12.swift">
          <PersistentStrings>
             <PersistentString
                value = "line.index(line.startIndex, offsetBy: index)..&lt;line.index(line.startIndex, offsetBy: index+values[0])">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "handleTermination #1 (nextParams:) in evaluate #1 (_:_:curRanges:) in Day19.part2Solution(input:):Day19.swift">
       </ContextState>
       <ContextState
          contextName = "Day16.part1Solution(input:):Day16.swift">
@@ -193,6 +210,14 @@
       </ContextState>
       <ContextState
          contextName = "closure #2 in Day17.part1Solution(input:):Day17.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Day19.sort(_:_:_:_:):Day19.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "closure #3 in Day05.part2Solution(input:):Day05.swift">
