@@ -1,5 +1,6 @@
 package solutions
 
+import helpers.lowestCommonMultiple
 import kotlin.math.max
 import kotlin.math.min
 
@@ -62,25 +63,5 @@ class Day08: Day {
         return accumulator.toString()
     }
 
-    /*
-     Returns the Greatest Common Divisor of two numbers.
-     */
-    private fun greatestCommonDivisor(x: Long,y: Long): Long {
-        var b = max(x, y)
-        var remainder = min(x, y)
 
-        while (remainder != 0L) {
-            val a = b
-            b = remainder
-            remainder = a % b
-        }
-        return b
-    }
-
-    /*
-     Returns the least common multiple of two numbers.
-     */
-    private fun lowestCommonMultiple(x: Long, y: Long) : Long {
-        return x / greatestCommonDivisor(x, y) * y
-    }
 }
