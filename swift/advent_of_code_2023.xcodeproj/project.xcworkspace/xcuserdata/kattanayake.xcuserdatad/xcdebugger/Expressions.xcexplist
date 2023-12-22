@@ -11,18 +11,18 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "Day.validate():Day.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "baseResourcePath">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
          contextName = "Day.validatePart2():Day.swift">
          <PersistentStrings>
             <PersistentString
                value = "Int(actualOutput)! / Int(expectedOutput)!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Day.validate():Day.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "baseResourcePath">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -66,6 +66,9 @@
          contextName = "evaluate #1 (_:_:curRanges:_:) in Day19.part2Solution(input:):Day19.swift">
       </ContextState>
       <ContextState
+         contextName = "Day20.simulate(modules:start:):Day20.swift">
+      </ContextState>
+      <ContextState
          contextName = "Day11.part1Solution(input:):Day11.swift">
          <PersistentStrings>
             <PersistentString
@@ -75,9 +78,6 @@
                value = "answer.reduce(0, +)">
             </PersistentString>
          </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "Day20.simulate(modules:start:):Day20.swift">
       </ContextState>
       <ContextState
          contextName = "closure #3 in Day17.part1Solution(input:):Day17.swift">
@@ -124,24 +124,18 @@
          contextName = "Day18.part2Solution(input:):Day18.swift">
       </ContextState>
       <ContextState
-         contextName = "evaluate #1 (_:_:curRanges:) in Day19.part2Solution(input:):Day19.swift">
-      </ContextState>
-      <ContextState
-         contextName = "goDeeper #1 (_:_:_:) in Day12.part1Solution(input:):Day12.swift">
+         contextName = "Day22.drop(bricks:):Day22.swift">
          <PersistentStrings>
             <PersistentString
-               value = "line.index(line.startIndex, offsetBy: index)..&lt;line.index(line.startIndex, offsetBy: index+values[0])">
+               value = "sortedBricks.filter { !$0.isLoadBearing }.count">
+            </PersistentString>
+            <PersistentString
+               value = "grid[Coordinate3D(x: xIdx, y: yIdx, z: zIdx-1)]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "handleTermination #1 (nextParams:) in evaluate #1 (_:_:curRanges:) in Day19.part2Solution(input:):Day19.swift">
-      </ContextState>
-      <ContextState
-         contextName = "Day16.part1Solution(input:):Day16.swift">
-      </ContextState>
-      <ContextState
-         contextName = "floodFill #1 (_:_:) in Day18.part1Solution(input:):Day18.swift">
+         contextName = "evaluate #1 (_:_:curRanges:) in Day19.part2Solution(input:):Day19.swift">
       </ContextState>
       <ContextState
          contextName = "closure #3 in Day20.parseInput(input:):Day20.swift">
@@ -152,12 +146,32 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "goDeeper #1 (_:_:_:) in Day12.part1Solution(input:):Day12.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "line.index(line.startIndex, offsetBy: index)..&lt;line.index(line.startIndex, offsetBy: index+values[0])">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Day16.part1Solution(input:):Day16.swift">
+      </ContextState>
+      <ContextState
+         contextName = "handleTermination #1 (nextParams:) in evaluate #1 (_:_:curRanges:) in Day19.part2Solution(input:):Day19.swift">
+      </ContextState>
+      <ContextState
+         contextName = "floodFill #1 (_:_:) in Day18.part1Solution(input:):Day18.swift">
+      </ContextState>
+      <ContextState
          contextName = "isNextToSymbol #1 (_:startY:endY:) in Day03.part1Solution(input:):Day03.swift">
          <PersistentStrings>
             <PersistentString
                value = "&quot;*&quot;[0].isSymbol">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Day22.part1Solution(input:):Day22.swift">
       </ContextState>
       <ContextState
          contextName = "closure #1 in Day12.part1Solution(input:):Day12.swift">
@@ -187,6 +201,9 @@
          contextName = "Day10.spreadFreedom(grid:explored:cellX:cellY:isSource:):Day10.swift">
       </ContextState>
       <ContextState
+         contextName = "Day04.part2Solution(input:):Day04.swift">
+      </ContextState>
+      <ContextState
          contextName = "propogateBeam #1 (_:_:_:) in Day16.part1Solution(input:):Day16.swift">
          <PersistentStrings>
             <PersistentString
@@ -195,7 +212,15 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "Day04.part2Solution(input:):Day04.swift">
+         contextName = "Day22.part2Solution(input:):Day22.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "parseInput(input: input).filter { $0.z.lowerBound != 1 } ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Day21.explore(grid:startX:startY:steps:):Day21.swift">
       </ContextState>
       <ContextState
          contextName = "closure #1 in Day05.part1Solution(input:):Day05.swift">
