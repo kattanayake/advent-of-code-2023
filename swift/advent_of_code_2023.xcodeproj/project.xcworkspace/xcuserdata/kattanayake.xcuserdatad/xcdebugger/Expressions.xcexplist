@@ -135,7 +135,26 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "Day23.exploreSimple(cell:path:grid:endY:cache:):Day23.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "path.map { $0.reduce(0, +) }.reduce(0, +)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Day24.part2Solution(input:):Day24.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "topLeft === topRight">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "evaluate #1 (_:_:curRanges:) in Day19.part2Solution(input:):Day19.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Day23.explore(cell:path:grid:endY:):Day23.swift">
       </ContextState>
       <ContextState
          contextName = "closure #3 in Day20.parseInput(input:):Day20.swift">
@@ -220,6 +239,9 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "Day24.multiply(matrix:vector:):Day24.swift">
+      </ContextState>
+      <ContextState
          contextName = "Day21.explore(grid:startX:startY:steps:):Day21.swift">
       </ContextState>
       <ContextState
@@ -269,6 +291,14 @@
          <PersistentStrings>
             <PersistentString
                value = "answer.getScore()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in Day23.explore(cell:path:grid:endY:):Day23.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "$0">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
