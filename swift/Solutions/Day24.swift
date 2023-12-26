@@ -68,12 +68,13 @@ struct Day24: Day {
     func part2Solution(input: [String]) -> String {
         let hailstones = parseInput(input)
         
+        // https://www.reddit.com/r/adventofcode/comments/18pnycy/2023_day_24_solutions/kepu26z/
         // We're trying to find a position vector p_a and a velocity vector v_a such that (p_a + t_i *(v_a)) = (p_i + t_i*(v_i)) for all i hailstones
         // This equation can be rearranged to be (p_a = p_i) = t_i*(v_i - v_a).
         // Because every vector's cross product with itself is 0, we can simplify the above equation by taking the cross prduct of (v_i - v_a)
-        // (p_a = p_i) x (v_i - v_a) = t_i*(v_i - v_a) x (v_i - v_a)
-        // (p_a = p_i) x (v_i - v_a) = t_i* (0)
-        // (p_a = p_i) x (v_i - v_a) = 0
+        // (p_a - p_i) x (v_i - v_a) = t_i*(v_i - v_a) x (v_i - v_a)
+        // (p_a - p_i) x (v_i - v_a) = t_i* (0)
+        // (p_a - p_i) x (v_i - v_a) = 0
         // Since p_a and v_a are both vectors of 3 dimensions each, and are related to each other, they can be solved for using a system of 6
         // linear equations
         
@@ -86,15 +87,18 @@ struct Day24: Day {
         let v1 = Vector(arrayLiteral: hailstones[1].x.velocity, hailstones[1].y.velocity, hailstones[1].z.velocity)
         let v2 = Vector(arrayLiteral: hailstones[2].x.velocity, hailstones[2].y.velocity, hailstones[2].z.velocity)
         
-        let b_0 = -cross(p0, v0) + cross(p1, v1)
-        let b_1 = -cross(p0, v0) + cross(p2, v2)
+        let b_0 = -crossProduct(p0, v0) + crossProduct(p1, v1)
+        let b_1 = -crossProduct(p0, v0) + crossProduct(p2, v2)
         let b = Vector(arrayLiteral: b_0[0], b_0[1], b_0[2],b_1[0], b_1[1], b_1[2])
-
+        
         let topLeft = generateSkewMatrix(for: v0) - generateSkewMatrix(for: v1)
         let topRight = -generateSkewMatrix(for: p0) + generateSkewMatrix(for: p1)
         let bottomLeft = generateSkewMatrix(for: v0) - generateSkewMatrix(for: v2)
         let bottomRight = -generateSkewMatrix(for: p0) + generateSkewMatrix(for: p2)
         
+        
+        /// A * p_0 | v_0 = b
+        /// p_0 | v_0 = A^-1 & b
         let a = (topLeft ||| topRight) === (bottomLeft ||| bottomRight)
         let aInv = inv(a)
         
@@ -124,7 +128,7 @@ struct Day24: Day {
         return products
     }
     
-    private func cross(_ a: Vector, _ b: Vector) -> Vector {
+    private func crossProduct(_ a: Vector, _ b: Vector) -> Vector {
         multiply(matrix: generateSkewMatrix(for: a), vector: b)
     }
     
